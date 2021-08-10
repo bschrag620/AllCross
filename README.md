@@ -2,6 +2,7 @@
 
 Template by WeBuildThemes
 Edited By Austin Dixon
+Windows Edit
 
 ## Template Files
 
