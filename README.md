@@ -1,6 +1,7 @@
 # Cube
 
 Template by WeBuildThemes
+Edited By Austin Dixon
 
 ## Template Files
 
