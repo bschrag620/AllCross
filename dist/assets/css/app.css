@@ -1,6 +1,7 @@
 .hero-logo {
   display: block;
   margin: auto;
+  max-height: 300px;
 }
 
 .bg-fayetteville {
@@ -13,4 +14,8 @@
 
 .bg-springdale {
   background-color: #116187;
+}
+
+.bg-rogers {
+  background-color: #00B4E5;
 }
