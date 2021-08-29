@@ -24,7 +24,7 @@
 
   <script>
     $(function () {
-      $('#site-nav-placeholder').load('/partials/site-nav.html');
+      $('#site-nav-placeholder').load('/partials/_site-nav');
     })
   </script>
 
@@ -35,9 +35,6 @@
         <div class="col-lg-8 col-xl-6">
           <h1 class="display-1 mb-1">Mark Your Calenders.</h1>
           <div class="text-secondary fs-3">
-            <!-- <span data-typed='{"strings": ["10 - 11 December, 2021", "New York, USA"]}'></span> -->
-            <!-- <span data-typed='{"strings": ["13 November, 2021", "Fayetteville, AR", "20 November, 2021", "Springdale, AR", "4 December, 2021", "Rogers, AR", "8 January, 2022", "Bentonville, AR"]}'></span> -->
-            <!-- all bikes, all levels, all humans. -->
             <span data-typed='{"strings": ["All Bikes", "All Levels", "All Humans"]}'></span>
 
           </div>
@@ -54,8 +51,7 @@
   <section class="py-10 border-bottom">
     <div class="container">
       <div class="carousel carousel-align text-center">
-        <div
-          data-carousel='{"gutter": 48, "loop": false, "nav": false, "controls": false, "responsive": {"0": {"items": 2}, "768": {"items": 4}}}'>
+        <div data-carousel='{"gutter": 48, "loop": false, "nav": false, "controls": false, "responsive": {"0": {"items": 2}, "768": {"items": 4}}}'>
           <!-- add next to the 4 for more city logos , "1200": {"items": 5} -->
           <div>
             <img src="./assets/images/logo/EXP_Primary1Color_Org.png" alt="Logo" class="logo">
@@ -87,54 +83,9 @@
           <p class="text-secondary lead">All Cross will be full of opportunity for all types of riders while offering a spectator experience that will make for a fun and exciting environment.</p>
           <a href="https://www.bikereg.com/allcross" class="action underline">Register Now<i class="bi bi-arrow-right"></i></a>
         </div>
-        <!-- <div class="col-xl-6">
-          <div class="row g-3 g-xl-5" data-masonry>
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card equal-xl-1-1 bg-primary inverted">
-                <div class="card-wrap">
-                  <div class="card-header pb-0">
-                    <i class="bi bi-clock-fill fs-3"></i>
-                  </div>
-                  <div class="card-footer mt-auto">
-                    <h3 class="fs-4">10-11 Dec</h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 mt-xl-20" data-aos="fade-up">
-              <div class="card equal-xl-1-1 inverted">
-                <div class="card-wrap">
-                  <div class="card-header pb-0">
-                    <i class="bi bi-compass-fill fs-3"></i>
-                  </div>
-                  <div class="card-footer mt-auto">
-                    <h3 class="fs-4">New York, USA</h3>
-                  </div>
-                </div>
-                <figure class="background background-overlay"
-                  style="background-image: url('./assets/images/newyork.jpg')" data-top-top="transform: translateY(0%);"
-                  data-top-bottom="transform: translateY(20%);"></figure>
-              </div>
-            </div>
-            <div class="col-md-6" data-aos="fade-up">
-              <div class="card equal-xl-1-1 bg-light">
-                <div class="card-wrap">
-                  <div class="card-header pb-0">
-                    <i class="bi bi-people-fill fs-3"></i>
-                  </div>
-                  <div class="card-footer mt-auto">
-                    <h3 class="fs-4">120 Speakers</h3>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
-
-  
 
   <!-- schedule -->
   
@@ -162,18 +113,6 @@
               <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
                 role="tab" aria-controls="home" aria-selected="false">Bentonville<p class="text-secondary">Jan. 8</p></button>
             </li>
-            <!-- <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                role="tab" aria-controls="profile" aria-selected="false">Sat, 20 Nov</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                role="tab" aria-controls="profile" aria-selected="false">Sat, 4 Dec</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                role="tab" aria-controls="profile" aria-selected="false">Sat, 8 Jan</button>
-            </li> -->
           </ul>
         </div>
       </div>
@@ -181,22 +120,6 @@
         <div class="col-12">
           <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-
-
-
-<!-- Event day schedule:
-  9am registration opens
-  10am skills clinics start
-  10:45 kids ½ lap race (12 and under)
-  11:10 kids one full lap
-  11:40 15 minute race (male/female) 
-  12:10 30 minute race (male/female)
-  12:50 45 minute race (male/female)  -->
-
-
-
-
-
               <div class="card bg-white">
                 <div class="accordion accordion-classic" id="accordion-1">
                   <div class="accordion-item">
@@ -208,35 +131,10 @@
                           </div>
                           <div class="col-9 col-md-7 fs-lg">Registration opens</div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-1.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
                   <div class="accordion-item">
                     <div class="accordion-header" id="heading-1-2">
@@ -247,46 +145,10 @@
                           </div>
                           <div class="col-9 col-md-7 fs-lg">Skills clinics start</div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar rounded-circle bg-primary">
-                                  <span>JD</span>
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-2.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-3.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
                   <div class="accordion-item">
                     <div class="accordion-header" id="heading-1-3">
@@ -298,41 +160,10 @@
                           <div class="col-9 col-md-7 fs-lg">Kids ½ lap race (12 and under)
                           </div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-3.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-4.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-3" class="accordion-collapse collapse" aria-labelledby="heading-1-3"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
 
                   <div class="accordion-item">
@@ -344,46 +175,10 @@
                           </div>
                           <div class="col-9 col-md-7 fs-lg">Kids one full lap</div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar rounded-circle bg-primary">
-                                  <span>JD</span>
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-2.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-3.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
 
                   <div class="accordion-item">
@@ -395,46 +190,10 @@
                           </div>
                           <div class="col-9 col-md-7 fs-lg">15 minute race (male/female)</div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar rounded-circle bg-primary">
-                                  <span>JD</span>
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-2.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-3.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
 
 
@@ -447,46 +206,10 @@
                           </div>
                           <div class="col-9 col-md-7 fs-lg">30 minute race (male/female)</div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar rounded-circle bg-primary">
-                                  <span>JD</span>
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-2.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-3.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
                   </div>
 
 
@@ -499,52 +222,13 @@
                           </div>
                           <div class="col-9 col-md-7 fs-lg">45 minute race (male/female)</div>
                           <div class="d-none d-md-block col-md-3 text-md-end pt-1 pt-md-0">
-                            <!-- <ul class="avatar-list">
-                              <li>
-                                <span class="avatar rounded-circle bg-primary">
-                                  <span>JD</span>
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-2.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                              <li>
-                                <span class="avatar" data-bs-toggle="tooltip" data-bs-placement="top"
-                                  title="Valerie Doe">
-                                  <img src="./assets/images/users/user-3.jpg" class="rounded-circle" alt="Avatar">
-                                </span>
-                              </li>
-                            </ul> -->
+
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
-                      data-bs-parent="#accordion-1">
-                      <div class="accordion-body">
-                        <div class="d-flex justify-content-end">
-                          <div class="col-md-10">
-                            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                              Blanditiis
-                              asperiores sed
-                              consectetur
-                              placeat ut vitae ad sequi laudantium explicabo cupiditate non, deserunt quas sapiente
-                              fuga
-                              fugiat a
-                              ipsam adipisci odit.</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div> -->
+
                   </div>
-
-
-
-                  
-
                 </div>
               </div>
 
@@ -556,542 +240,26 @@
     </div>
   </section>
 
-
-
-  <!-- speakers
-  <section class="py-0">
-    <div class="container-full">
-      <div class="row g-0">
-        <div class="col-sm-6 col-md-6 col-lg-8 col-xl-3">
-          <div class="card h-100 bg-primary inverted">
-            <div class="card-wrap">
-              <div class="card-footer mt-auto">
-                <h2>Speakers</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-1.jpg')">
-            </figure>
-          </a>        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-2.jpg')">
-            </figure>
-          </a>        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-3.jpg')">
-            </figure>
-          </a>        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-4.jpg')">
-            </figure>
-          </a>        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-5.jpg')">
-            </figure>
-          </a>        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-6.jpg')">
-            </figure>
-          </a>        </div>
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <a href="" class="card card-hover-gradient inverted equal-1-1">
-            <div class="card-wrap">
-              <div class="card-footer text-shadow mt-auto">
-                <h5 class="mb-0">John Doe</h5>
-                <span class="text-muted">Senior Product Designer</span>
-              </div>
-            </div>
-            <figure class="background" style="background-image: url('./assets/images/users/user-7.jpg')">
-            </figure>
-          </a>        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- price 
-  <section class="py-20 mx-0 mx-lg-3">
-    <div class="container">
-      <div class="row justify-content-center mb-6">
-        <div class="col-lg-8 text-center">
-          <h2 class="fw-bold mb-1">Get started with CUBE</h2>
-          <p class="lead text-secondary">Unlimited possibilities that come at an affordable price.</p>
-        </div>
-      </div>
-      <div class="row g-4 align-items-end">
-        <div class="col-lg-4" data-aos="fade-up">
-          <div class="card bg-primary bordered inverted">
-            <div class="card-body">
-              <h2 class="h1 mb-10 fw-bold">$49</h2>
-              <ul class="list-unstyled mb-4">
-                <li class="py-1">Single site</li>
-                <li class="py-1">Use for personal or a client</li>
-                <li class="py-1">Use in a free end product <br> (Can have multiple users)</li>
-                <li class="py-1 text-muted"><s>Use in an end product that is “sold” <br> (Can have
-                    multiple paying
-                    users)</s></li>
-              </ul>
-              <div class="d-grid">
-                <a href="https://themes.getbootstrap.com/product/cube-multipurpose-template-ui-kit/"
-                  class="btn btn-white btn-with-icon rounded-pill">Buy Now <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
-          <div class="row g-0 separated">
-            <div class="col-md-6 bg-white">
-              <div class="card">
-                <div class="card-body">
-                  <h2 class="h1 mb-10 fw-bold">$149</h2>
-                  <ul class="list-unstyled mb-4">
-                    <li class="py-1">Multiple sites</li>
-                    <li class="py-1">Use for personal or a client</li>
-                    <li class="py-1">Use in a free end product <br> (Can have multiple users)</li>
-                    <li class="py-1 text-muted"><s>Use in an end product that is “sold” <br> (Can
-                        have multiple paying
-                        users)</s></li>
-                  </ul>
-                  <div class="d-grid">
-                    <a href="https://themes.getbootstrap.com/product/cube-multipurpose-template-ui-kit/"
-                      class="btn btn-outline-primary btn-with-icon rounded-pill">Buy Now <i
-                        class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 bg-white">
-              <div class="card">
-                <div class="card-body">
-                  <h2 class="h1 mb-10 fw-bold">$449</h2>
-                  <ul class="list-unstyled mb-4">
-                    <li class="py-1">Single site</li>
-                    <li class="py-1">Use for personal or a client</li>
-                    <li class="py-1">Use in a free end product <br> (Can have multiple users)</li>
-                    <li class="py-1">Use in an end product that is “sold” <br> (Can have multiple
-                      paying users)</li>
-                  </ul>
-                  <div class="d-grid">
-                    <a href="https://themes.getbootstrap.com/product/cube-multipurpose-template-ui-kit/"
-                      class="btn btn-outline-primary btn-with-icon rounded-pill">Buy Now <i
-                        class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- location 
-  <section>
-    <div class="container py-20 foreground">
-      <div class="row g-0">
-        <div class="col-md-6 col-xl-5">
-          <div class="card bg-white">
-            <div class="card-header">
-              <h2>USA, New York, Broadway</h2>
-            </div>
-            <div class="card-body bg-white pt-0">
-              <ul class="list-group list-group-minimal">
-                <li class="list-group-item d-flex align-items-center mb-1">
-                  <div class="icon-box bg-opaque-primary rounded-circle me-2"><i
-                      class="bi bi-pin-angle text-primary"></i>
-                  </div>
-                  5th Avenue
-                </li>
-                <li class="list-group-item d-flex align-items-center mb-1">
-                  <div class="icon-box bg-opaque-primary rounded-circle me-2"><i
-                      class="bi bi-envelope text-primary"></i>
-                  </div>
-                  example@example.com
-                </li>
-                <li class="list-group-item d-flex align-items-center">
-                  <div class="icon-box bg-opaque-primary rounded-circle me-2"><i
-                      class="bi bi-telephone text-primary"></i>
-                  </div>
-                  (123) 456-7890
-                </li>
-              </ul>
-            </div>
-            <div class="card-footer pt-0 text-end">
-              <a href="" class="action underline">Find directions <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="media h-100">
-      <span id="map1"></span>
-    </div>
-  </section>
-
-
-  <!-- footer 
-  <footer class="py-15 py-xl-20 bg-black inverted">
-    <div class="container">
-      <div class="row g-2 g-lg-6 mb-8">
-        <div class="col-lg-6">
-          <h4>5th Avenue, New York <br>USA 10255</h4>
-        </div>
-        <div class="col-lg-6 text-lg-end">
-          <span class="h5">+1 (234) 567 890</span>
-        </div>
-      </div>
-      <div class="row mb-8">
-        <div class="col">
-          <hr>
-        </div>
-      </div>
-      <div class="row g-0 g-lg-6 text-secondary">
-        <div class="col-lg-6 text-lg-end order-lg-2">
-          <ul class="list-inline">
-            <li class="list-inline-item"><a href="" class="text-reset">facebook</a></li>
-            <li class="list-inline-item ms-1"><a href="" class="text-reset">twitter</a></li>
-            <li class="list-inline-item ms-1"><a href="" class="text-reset">linkedin</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-6 order-lg-1">
-          <p>Copyrights © 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
+  <!-- Footer FAQ -->
+  <div id="faq-placeholder"></div>
+  <div id="footer-placeholder"></div>
   <script>
-    function initMap() {
-      var latlng = new google.maps.LatLng(40.702888, -74.012420);
+    $.ajax({
+      url: "/partials/_faq",
+      method: 'get',
+      success: function (data) {
+        $('#faq-placeholder').html(data);
+      }
+    })
 
-      var myOptions = {
-        zoom: 15,
-        center: latlng,
-        disableDefaultUI: true,
-        styles: [
-          {
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#f5f5f5"
-              }
-            ]
-          },
-          {
-            "elementType": "labels.icon",
-            "stylers": [
-              {
-                "visibility": "off"
-              }
-            ]
-          },
-          {
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#616161"
-              }
-            ]
-          },
-          {
-            "elementType": "labels.text.stroke",
-            "stylers": [
-              {
-                "color": "#f5f5f5"
-              }
-            ]
-          },
-          {
-            "featureType": "administrative.land_parcel",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#bdbdbd"
-              }
-            ]
-          },
-          {
-            "featureType": "poi",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#eeeeee"
-              }
-            ]
-          },
-          {
-            "featureType": "poi",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#757575"
-              }
-            ]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#e5e5e5"
-              }
-            ]
-          },
-          {
-            "featureType": "poi.park",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#9e9e9e"
-              }
-            ]
-          },
-          {
-            "featureType": "road",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#ffffff"
-              }
-            ]
-          },
-          {
-            "featureType": "road.arterial",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#757575"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#dadada"
-              }
-            ]
-          },
-          {
-            "featureType": "road.highway",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#616161"
-              }
-            ]
-          },
-          {
-            "featureType": "road.local",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#9e9e9e"
-              }
-            ]
-          },
-          {
-            "featureType": "transit.line",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#e5e5e5"
-              }
-            ]
-          },
-          {
-            "featureType": "transit.station",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#eeeeee"
-              }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [
-              {
-                "color": "#c9c9c9"
-              }
-            ]
-          },
-          {
-            "featureType": "water",
-            "elementType": "labels.text.fill",
-            "stylers": [
-              {
-                "color": "#9e9e9e"
-              }
-            ]
-          }
-        ]
-      };
-
-      var map = new google.maps.Map(document.getElementById("map1"), myOptions);
-
-      map.panBy(-100, -40);
-
-      var myMarker = new google.maps.Marker(
-        {
-          position: latlng,
-          map: map,
-          icon: 'assets/images/svg/pin.svg'
-        });
-    }
+    $.ajax({
+      url: "/partials/_footer",
+      method: 'get',
+      success: function (data) {
+        $('#footer-placeholder').html(data);
+      }
+    })
   </script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAME5wJgLdn1aQSxC7-iWxJ3isuveK9Rv4&callback=initMap"
-    async defer></script> -->
-
-<!-- Footer FAQ -->
-<section class="py-5 py-xl-20 bg-black inverted">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <div class="accordion accordion-minimal accordion-highlight" id="accordion-1">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-1-1">
-              <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse-1-1" aria-expanded="false" aria-controls="collapse-1-1">
-                How many races are there?
-              </button>
-            </h2>
-            <div id="collapse-1-1" class="accordion-collapse collapse" aria-labelledby="heading-1-1"
-              data-bs-parent="#accordion-1">
-              <div class="accordion-body">
-                <p class="text-secondary">
-                  <span class="fw-bold text-white"></span> All Cross is a 4-event series featuring unique course and 
-                  venues taking place in Fayetteville, Bentonville, Rogers, and Springdale.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-1-2">
-              <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse-1-2" aria-expanded="false" aria-controls="collapse-1-2">
-                Who all can participate?
-              </button>
-            </h2>
-            <div id="collapse-1-2" class="accordion-collapse collapse" aria-labelledby="heading-1-2"
-              data-bs-parent="#accordion-1">
-              <div class="accordion-body">
-                <p class="text-secondary">
-                  <span class="fw-bold text-white">Everyone.</span>  We developed the series events to accommodate
-                   those new to cyclocross all the way to advanced riders
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-1-3">
-              <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
-                How do I contact you?
-              </button>
-            </h2>
-            <div id="collapse-1-3" class="accordion-collapse collapse" aria-labelledby="heading-1-3"
-              data-bs-parent="#accordion-1">
-              <div class="accordion-body">
-                <p class="text-secondary">If you have any questions or just want to sponsor us, 
-                  click the link below to get in touch with us. </p>
-                <a href="mailto:breakawaycyclingteam@gmail.com"
-                  class="btn btn-sm btn-with-icon btn-primary rounded-pill">Get in touch <i
-                    class="icon-send"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="heading-1-4">
-              <button class="accordion-button fs-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse-1-4" aria-expanded="false" aria-controls="collapse-1-4">
-                What is All Cross?
-              </button>
-            </h2>
-            <div id="collapse-1-4" class="accordion-collapse collapse" aria-labelledby="heading-1-4"
-              data-bs-parent="#accordion-1">
-              <div class="accordion-body">
-                <p class="text-secondary">
-                  <span class="fw-bold text-white"></span> All Cross is a cycling event for anyone and everyone. 
-                  We welcome all types of bikes, all ages, and all levels of riders. PLUS spectators that are ready to have fun and party. 
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <img class="img-fluid" src="./assets/images/svg/faq.svg" alt="Figure">
-      </div>
-    </div>
-  </div>
-</section>
-
- <!-- footer -->
- <footer id="footer" class="py-10 py-xl-15 bg-black inverted border-top">
-  <div class="container">
-    <div class="row align-items-center text-muted">
-      <div class="col-6 col-lg-4 text-lg-center order-lg-2"><a href="/" class="navbar-brand"><img
-            src="./assets/images/logo/AllCrossLogo_DarkBG.png" alt="Logo"></a></div>
-      <div class="col-6 col-lg-4 order-lg-1">
-        <p class="eyebrow">2021 &copy; Breakaway Cycling Team</p>
-      </div>
-      <div class="col-lg-4 text-center text-lg-end order-lg-3">
-        <a href="https://www.bikereg.com/allcross" class="action eyebrow underline text-white">Register Now <i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-  </div>
-</footer>  </div>
-
 
   <!-- javascript -->
   <script src="./assets/js/vendor.bundle.js"></script>
