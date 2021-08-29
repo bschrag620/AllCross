@@ -1,6 +1,9 @@
 <!-- Nav CSS -->
 <link rel="stylesheet" href="./assets/css/nav.css" />
 
+<!-- App CSS -->
+<link rel="stylesheet" href="./assets/css/app.css" />
+
 <!-- navbar -->
 <nav id="mainNav" class="navbar navbar-expand-lg navbar-sticky navbar-dark" style="background-color: black;">
   <div class="container">
@@ -26,17 +29,16 @@
       <ul class="navbar-nav">
         <!-- Fayetteville -->
         <li class="nav-item dropdown dropdown-hover">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="/fayetteville" id="navbarDropdown-2" aria-expanded="false">
             Fayetteville
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
             <div class="row g-0">
               <div class="col-12">
-                <a class="dropdown-item " href="/event#schedule">Schedule</a>
+                <a class="dropdown-item " href="/fayetteville#schedule">Schedule</a>
                 <a class="dropdown-item " href="https://www.experiencefayetteville.com/" target="_blank">City Info</a>
-                <a class="dropdown-item " href="/about#post-party">Post-Party</a>
-                <a class="dropdown-item " href="https://www.bikereg.com/allcross" target="_blank">Registration</a>
-                <a class="dropdown-item " href="/coming-soon">Course Maps</a>
+                <a class="dropdown-item " href="/fayetteville#post-party">Post Party</a>
+                <a class="dropdown-item " href="/fayetteville#course-map">Course Map</a>
                 <div class="register-placeholder"></div>
               </div>
             </div>
@@ -132,7 +134,7 @@
 
 <script>
   $.ajax({
-    url: "/partials/register",
+    url: "/partials/_register",
     method: 'get',
     success: function(data) {
       $('.register-placeholder').html(data);
