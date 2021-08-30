@@ -220,7 +220,7 @@
 <div id="footer-placeholder"></div>
 <script>
   $.ajax({
-    url: "/partials/_faq",
+    url: "/partials/_faq.html",
     method: 'get',
     success: function (data) {
       $('#faq-placeholder').html(data);
@@ -228,7 +228,7 @@
   })
 
   $.ajax({
-    url: "/partials/_footer",
+    url: "/partials/_footer.html",
     method: 'get',
     success: function (data) {
       $('#footer-placeholder').html(data);
