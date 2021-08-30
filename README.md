@@ -1,12 +1,11 @@
-# Cube
+# AllCross
 
-Template by WeBuildThemes
+Template Cube by WeBuildThemes
 Edited By Austin Dixon
-Windows Edit
 
 ## Template Files
 
-You can use CUBE as is out of the box. All ready to use files are in the /dist/ folder.
+All ready to use files are in the /dist/ folder.
 
 The webflow workflow can be bypassed all together if you prefer to simply edit the static HTML and CSS files.
 But if you are experienced developer and want to speed up development process follow steps bellow.
