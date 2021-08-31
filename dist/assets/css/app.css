@@ -4,6 +4,10 @@
   max-height: 300px;
 }
 
+.sub-hero-logo img {
+  max-height: 100px;
+}
+
 .bg-fayetteville {
   background-color: #dd4814;
 }
