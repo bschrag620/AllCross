@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/images/android-chrome-512x512.png" type="image/x-icon" />
+
+  <!-- Libs CSS -->
+  <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./assets/css/index.bundle.css" />
+
+  <!-- Title -->
+  <title>All Cross</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body>
+
+  <div id="site-nav-placeholder"></div>
+
+  <script>
+    $(function () {
+      $('#site-nav-placeholder').load('/partials/_site-nav.html');
+    })
+  </script>
+
+  <!-- header -->
+  <div class="row py-5">
+    <div class="col-lg-12">
+      <section class="cover overflow-hidden bg-ac-blue inverted">
+        <div class="d-flex flex-column min-vh-100 py-20 container foreground">
+          <div class="row justify-content-center my-auto">
+            <div class="col-lg-8 col-xl-6">
+              <h1 class="display-1 mb-1">Spectator Info</h1>
+              <div class="text-secondary fs-3">
+                <span data-typed='{"strings": ["All Bikes", "All Levels", "All Humans"]}'></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <figure class="background background-dimm"
+          style="background-image: url('./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01864.jpg')"
+          data-top-top="transform: translateY(0%);" data-top-bottom="transform: translateY(20%);"></figure>
+        <span class="scroll-down"></span>
+      </section>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8 py-5">
+      <p class="text-secondary">
+        ALL Cross will be like an event inside an event or better put a party within a party. With local vibes and good times.
+        Participate in various hand-ups to racers-yeah that’s right- we make it interesting with hand-ups such as donuts, bacon,
+        money, and more. Spectators can be anyone at any age and do not have to know a rider or anything about cycling. That is
+        the beauty of cyclocross. It is about having fun, being part of the community, and having fun (did we say having fun
+        already?). Come join in with local vendors and party with us.
+      </p>
+    </div>
+    <div class="col-lg-2"></div>
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+      <video playsinline autoplay muted loop data-video>
+        <source src="./assets/video/spectator-compressed.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+  <!-- Footer FAQ -->
+  <div id="faq-placeholder"></div>
+  <div id="footer-placeholder"></div>
+  <script>
+    $.ajax({
+      url: "/partials/_faq.html",
+      method: 'get',
+      success: function (data) {
+        $('#faq-placeholder').html(data);
+      }
+    })
+
+    $.ajax({
+      url: "/partials/_footer.html",
+      method: 'get',
+      success: function (data) {
+        $('#footer-placeholder').html(data);
+      }
+    })
+  </script>
+
+  <!-- javascript -->
+  <script src="./assets/js/vendor.bundle.js"></script>
+  <script src="./assets/js/index.bundle.js"></script>
+</body>
+
+</html>
