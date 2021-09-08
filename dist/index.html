@@ -21,7 +21,7 @@
 
 <body>
 
-  <div id="site-nav-placeholder"></div>
+  <div id="site-nav-placeholder" class="overflow-hidden"></div>
 
   <script>
     $.ajax({
@@ -93,9 +93,9 @@
             data-bs-parent="#accordion-1">
             <div class="accordion-body">
               <p class="text-secondary">
-                <span class="fw-bold text-black">All Cross is a cycling event for anyone and everyone. 
-                We welcome all types of bikes, all ages, 
-                and all levels of riders. PLUS spectators that are ready to have fun and party.</span> 
+                <span class="fw-bold text-black">All Cross is a cycling event for anyone and everyone.
+                We welcome all types of bikes, all ages,
+                and all levels of riders. PLUS spectators that are ready to have fun and party.</span>
               </p>
             </div>
           </div>
@@ -112,7 +112,7 @@
         <p class="fs-4">Why Join Us?</p>
         <div class="row g-3 g-md-5 mt-4">
           <div class="col-md-6 col-lg-4">
-            <span class="fs-2 lh-1 fw-bold">4 Citys</span>
+            <span class="fs-2 lh-1 fw-bold">4 Cities</span>
             <p class="d-block text-muted fs-lg mt-1"> <span class="text-black">Experience NWA</span>
               and all this amazing area has to offer.</p>
           </div>
@@ -133,29 +133,52 @@
 </section>
 
 <!-- gallery -->
-<section class="overflow-hidden py-5" data-aos="fade-left">
+<div class="carousel overflow-hidden carousel-big-controls carousel-visible">
+  <div data-carousel='{"mouseDrag": true, "gutter": 40, "loop": true, "items": 1, "nav": false}'>
+    <div>
+      <figure class="equal-16-10" style="background-image: url('./assets/images/Cyclocross Pics/O&B Flyover.jpg')">
+      </figure>
+    </div>
+
+    <div>
+      <figure class="equal-16-10" style="background-image: url('./assets/images/Cyclocross Pics/fwdfayettevillepics1/DSC01724.jpg')">
+      </figure>
+    </div>
+
+    <div>
+      <figure class="equal-16-10" style="background-image: url('./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01904.jpg')">
+      </figure>
+    </div>
+
+    <div>
+      <figure class="equal-16-10" style="background-image: url('./assets/images/Cyclocross Pics/fwdfayettevillepics2/DSC01767.jpg')">
+      </figure>
+    </div>
+  </div>
+</div>
+<!--
+<section class="py-5" data-aos="fade-left">
   <div class="container gallery-1">
-    <div class="row flex-nowrap align-items-end g-2 g-xl-5 mb-2 mb-xl-5" data-bottom-top="transform: translateX(-25%)"
-      data-top-bottom="transform: translateX(-40%)">
-      <div class="col-6">
+    <div class="row flex-nowrap align-items-end g-2 g-xl-5 mb-2 mb-xl-5" data-bottom-top="transform: translateX(-25%)" data-top-bottom="transform: translateX(-40%)">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/O&B Flyover.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/O&B Flyover.jpg')">
           </span>
         </figure>        </div>
-      <div class="col-6">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdfayettevillepics1/DSC01724.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdfayettevillepics1/DSC01724.jpg')">
           </span>
         </figure>        </div>
-      <div class="col-6">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01904.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01904.jpg')">
           </span>
         </figure>        </div>
-      <div class="col-6">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdfayettevillepics2/DSC01767.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdfayettevillepics2/DSC01767.jpg')">
@@ -164,31 +187,31 @@
     </div>
     <div class="row flex-nowrap align-items-start g-2 g-xl-5" data-bottom-top="transform: translateX(-50%)"
       data-top-bottom="transform: translateX(-35%)">
-      <div class="col-4">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdfayettevillepics1/DSC01758.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdfayettevillepics1/DSC01758.jpg')">
           </span>
         </figure>        </div>
-      <div class="col-4">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01896.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01896.jpg')">
           </span>
         </figure>        </div>
-      <div class="col-4">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/DSC01175.JPG" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/DSC01175.JPG')">
           </span>
         </figure>        </div>
-      <div class="col-4">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdfayettevillepics3/DSC01841.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdfayettevillepics3/DSC01841.jpg')">
           </span>
         </figure>        </div>
-      <div class="col-4">
+      <div class="col-lg-3">
         <figure class="media equal equal-16-10 media-image"
           data-bp='{"imgSrc": "./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01885.jpg" , "parentGalleryClass": "gallery-1" }' >
           <span  style="background-image: url('./assets/images/Cyclocross Pics/fwdpumptrackcoursepics1/DSC01885.jpg')">
@@ -196,7 +219,7 @@
         </figure>        </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section class="py-5 py-xl-5 overflow-hidden border-top bg-ac-blue">
   <div class="container" >

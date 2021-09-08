@@ -54,6 +54,10 @@ img.card-img-top {
 }
 
 img.max-height-100 {
-  max-height: 100%;
-  width: auto;
+  max-height: auto;
+  max-width: 100%;
+}
+
+.auto-margin {
+  margin: auto;
 }
