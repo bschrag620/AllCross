@@ -17,11 +17,15 @@
           <span class="bi bi-list"></span>
         </a>
       </li>
-      <li class="nav-item d-none d-lg-block">
+      <!---
+        TODO: uncomment when registration is available
+        <li class="nav-item d-none d-lg-block">
         <a href="https://www.bikereg.com/allcross" class="btn btn-outline-white rounded-pill ms-2">
           Register Now
         </a>
       </li>
+
+      -->
     </ul>
 
     <!-- primary -->
@@ -100,15 +104,12 @@
           </div>
         </li>
 
-        <!-- Sponsors -->
-        <a href="/sponsors" class="nav-link text-white">Sponsors</a>
-
         <!-- Spectators -->
         <a href="/spectators" class="nav-link text-white">Spectators</a>
 
         <!-- About -->
         <li class="nav-item dropdown dropdown-hover">
-          <a class="nav-link dropdown-toggle" href="/about" id="navbarDropdown-2" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown-2" role="button" data-bs-toggle="dropdown" id="navbarDropdown-2" aria-expanded="false">
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown-2">
@@ -125,8 +126,11 @@
         </li>
 
         <!-- Register Button-->
+
         <li class="nav-item d-lg-none">
-          <a href="https://www.bikereg.com/allcross" class="nav-link text-primary">Register Now</a>
+          <!--
+            <a href="https://www.bikereg.com/allcross" class="nav-link text-primary">Register Now</a>
+          -->
         </li>
       </ul>
     </div>
@@ -134,13 +138,14 @@
 </nav>
 
 <script>
-  $.ajax({
-    url: "/partials/_register.html",
-    method: 'get',
-    success: function(data) {
-      $('.register-placeholder').html(data);
-    }
-  })
+  // TODO: re-initialize this call for the register button once it is avaialable
+  // $.ajax({
+  //   url: "/partials/_register.html",
+  //   method: 'get',
+  //   success: function(data) {
+  //     $('.register-placeholder').html(data);
+  //   }
+  // })
 
   $(document).ready(function() {
    $('.nav-link').each( (idx, ele) => {
