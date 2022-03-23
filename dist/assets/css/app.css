@@ -58,6 +58,10 @@ img.max-height-100 {
   max-width: 100%;
 }
 
+img.max-width-100 {
+  max-width: 100%;
+}
+
 .auto-margin {
   margin: auto;
 }
